@@ -1,0 +1,312 @@
+#shapka{
+  max-width: 1920px;
+  width: 100%;
+}
+.container{
+  width: 1170px;
+  margin:0px auto;
+}
+header{
+  padding-top: 15px;
+}
+.logo {
+  padding-left: 30px;
+  float: left;
+  background: url("../img/лого.jpg") no-repeat center right;
+  margin-top: 15px;
+  max-width: 222px;
+  height: 50px;
+}
+.home {
+  width: 122px;
+  height: 15px;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+  font-family: Geometria;
+  letter-spacing: 0.16px;
+}
+
+.logo span{
+  float: left;
+  width: 122px;
+  height: 15px;
+  color: #284157;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  text-transform: uppercase;
+  /* Text style for "Д, ома" */
+  font-family: "Geometria - Bold";
+  font-weight: 700;
+  letter-spacing: 0.16px;
+}
+
+.timework {
+  flot:left;
+  margin-top: 25px;
+  margin-bottom: 24px;
+  width: 135px;
+  height: 31px;
+}
+
+.time{
+  margin-left: 454px;
+  float:left;
+  width: 92px;
+  height: 31px;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+  /* Text style for "с,  9:, ," */
+  font-family: "Geometria - Bold";
+  font-weight: 700;
+  letter-spacing: 0.12px;
+}
+.timeworklogo{
+  float:left;
+  margin-left: 25px;
+  width: 18px;
+  height: 18px;
+  background: url("../img/clock-circular-outline_59252#term=time&page=1&position=64.jpg") no-repeat right center;
+ /* background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);*/
+}
+/*#bezweekend{
+  width: 92px;
+  height: 31px;
+  color: #284157;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+  font-family: Geometria;
+  font-weight: 400;
+  letter-spacing: 0.12px;
+}*/
+.ask{
+  float:left;
+  margin-left: 201px;
+  width: 144px;
+  height: 12px;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0.12px;
+}
+/*.phone {
+  margin-left: 201px;
+  float:left;
+  margin-top: 25px;
+  margin-bottom: 19px;
+  width: 145px;
+  height: 36px;
+}*/
+
+.number{
+  margin-left: 201px;
+  float: left;
+  width: 144px;
+  height: 15px;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+
+  letter-spacing: 0.15px;
+}
+.button {
+  float:right;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  width: 170px;
+  height: 50px;
+  /* Style for "Прямоуголь" */
+  border-radius: 5px;
+  background-color: #ffb111;
+  background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
+}
+/*
+#zvonok{
+
+   Style for "Заказать з
+  width: 103px;
+  height: 9px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 19px;
+  /* Text style for "Заказать з"
+  letter-spacing: 0.12px;
+}
+*/
+#display1{
+  background: url("../img/display1/banner-3_1.jpg") no-repeat center top;
+border: 1px solid black;
+margin-top:80px;
+  width: 1920px;
+  height: 600px;
+}
+.text{
+  width: 504px;
+  height: 471px;
+}
+.stroimdoma{
+  /* Style for "Строим Дом" */
+  width: 245px;
+  height: 34px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 32px;
+  /* Text style for "Строим Дом" */
+  letter-spacing: 0.36px;
+}
+.schego{
+  /* Style for "из бетона," */
+  width: 316px;
+  height: 40px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.gde{
+  /* Style for "из бетона," */
+  width: 316px;
+  height: 40px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+.brigad{
+  /* Style for "У нас 7 бр" */
+  float: left;
+  margin-top: 204px;
+  width: 103px;
+  height: 31px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 14px;
+  font-weight: 500;
+}
+.oput{
+  /* Style for "Опыт работ" */
+  padding-left: 98px;
+  float:left;
+  margin-top: 204px;
+  width: 92px;
+  height: 28px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 14px;
+  font-weight: 500;
+}
+.sozdanie{
+  /* Style for "Создаем до" */
+  padding-left: 108px;
+  float:left;
+  margin-top: 204px;
+  width: 103px;
+  height: 69px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 400;
+  /* Text style for "Создаем до" */
+  font-family: "Geometria - Medium";
+  font-size: 14px;
+  font-weight: 500;
+  /* Text style for "реконструи" */
+  font-family: Geometria;
+  line-height: 24px;
+}
+.forma1{
+  /* Style for "фомра" */
+  width: 369px;
+  height: 417px;
+}
+.mnougol{
+  /* Style for "Многоуголь" */
+  margin-top: 91px;
+  padding-left: 1176px;
+  float: left;
+  width: 369px;
+  height: 417px;
+  background-color: #ffffff;
+}
+.free{
+  /* Style for "Бесплатно" */
+  width: 211px;
+  height: 54px;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 16px;
+  font-weight: 500;
+}
+.name{
+  /* Style for "Ваше имя" */
+  width: 58px;
+  height: 10px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  /* Text style for "В, аше имя" */
+  letter-spacing: 0.12px;
+}
+.younumber{
+  /* Style for "Ваш телефо" */
+  width: 78px;
+  height: 12px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: Geometria;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 19px;
+  /* Text style for "В, аш теле" */
+  letter-spacing: 0.12px;
+}
+.button1{
+  /* Style for "Прямоуголь" */
+  width: 190px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #ffb111;
+  background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
+}
+.cmeta{
+  /* Style for "Заказать с" */
+  width: 101px;
+  height: 13px;
+  color: #ffffff;
+  font-family: Geometria;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 19px;
+  /* Text style for "Заказать с" */
+  letter-spacing: 0.13px;
+}
+#display2{
+
+  border: 1px solid black;
+  width: 1170px;
+  height: 752px;
+
+}
+
