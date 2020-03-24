@@ -1,28 +1,42 @@
-#shapka{
+#shapka {
   max-width: 1920px;
   width: 100%;
 }
-.container{
-  width: 1170px;
-  margin:0px auto;
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0px auto;
 }
-header{
-  padding-top: 15px;
+
+header {
+  padding: 15px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
 .logo {
-  padding-left: 30px;
-  float: left;
-  background: url("../img/лого.jpg") no-repeat center right;
-  margin-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
   max-width: 222px;
-  height: 50px;
+  text-decoration: none;
 }
+
+.logo img {
+  margin-right: 10px;
+
+}
+
 .home {
+
   width: 122px;
   height: 15px;
   color: #284157;
   font-family: Geometria;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 19px;
   text-transform: uppercase;
@@ -30,12 +44,12 @@ header{
   letter-spacing: 0.16px;
 }
 
-.logo span{
-  float: left;
+.logo span {
+
   width: 122px;
   height: 15px;
   color: #284157;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 19px;
   text-transform: uppercase;
@@ -46,267 +60,484 @@ header{
 }
 
 .timework {
-  flot:left;
-  margin-top: 25px;
-  margin-bottom: 24px;
-  width: 135px;
-  height: 31px;
+  max-width: 135px;
+  widt: 100%;
 }
 
-.time{
-  margin-left: 454px;
-  float:left;
-  width: 92px;
-  height: 31px;
+div.time {
   color: #284157;
-  font-family: Geometria;
-  font-size: 12px;
-  font-weight: 700;
+  font-size: 1rem;
   line-height: 19px;
-  /* Text style for "с,  9:, ," */
   font-family: "Geometria - Bold";
   font-weight: 700;
   letter-spacing: 0.12px;
 }
-.timeworklogo{
-  float:left;
-  margin-left: 25px;
-  width: 18px;
-  height: 18px;
-  background: url("../img/clock-circular-outline_59252#term=time&page=1&position=64.jpg") no-repeat right center;
- /* background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);*/
+
+.time span {
+  font-size: 0.8rem;
 }
-/*#bezweekend{
-  width: 92px;
-  height: 31px;
-  color: #284157;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 19px;
-  font-family: Geometria;
-  font-weight: 400;
-  letter-spacing: 0.12px;
-}*/
-.ask{
-  float:left;
-  margin-left: 201px;
+
+.timeworklogo {
+  display: flex;
+  align-items: center;
+}
+
+.ask {
   width: 144px;
-  height: 12px;
   color: #284157;
   font-family: Geometria;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 19px;
+  margin: 0;
   letter-spacing: 0.12px;
 }
-/*.phone {
-  margin-left: 201px;
-  float:left;
-  margin-top: 25px;
-  margin-bottom: 19px;
-  width: 145px;
-  height: 36px;
-}*/
 
-.number{
-  margin-left: 201px;
-  float: left;
+.number {
+  font-style: italic;
   width: 144px;
-  height: 15px;
   color: #284157;
   font-family: Geometria;
-  font-size: 15px;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 19px;
-
+  margin: 0;
   letter-spacing: 0.15px;
 }
-.button {
-  float:right;
-  margin-top: 15px;
-  margin-bottom: 15px;
-  border: 1px solid black;
-  width: 170px;
-  height: 50px;
-  /* Style for "Прямоуголь" */
-  border-radius: 5px;
-  background-color: #ffb111;
-  background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
-}
-/*
-#zvonok{
 
-   Style for "Заказать з
-  width: 103px;
-  height: 9px;
-  color: #ffffff;
-  font-family: Geometria;
-  font-size: 12px;
-  font-weight: 700;
-  line-height: 19px;
-  /* Text style for "Заказать з"
-  letter-spacing: 0.12px;
+input::placeholder {
+  font-style: italic;
+  text-align: center;
 }
-*/
-#display1{
+
+
+#display1 {
+
   background: url("../img/display1/banner-3_1.jpg") no-repeat center top;
-border: 1px solid black;
-margin-top:80px;
-  width: 1920px;
-  height: 600px;
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
 }
-.text{
-  width: 504px;
-  height: 471px;
+
+#blockconteiner {
+  display: flex;
+  padding: 100px 0;
+  justify-content: space-between;
 }
-.stroimdoma{
-  /* Style for "Строим Дом" */
-  width: 245px;
-  height: 34px;
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50%;
+  max-width: 504px;
+}
+
+.stroimdoma {
+  margin-bottom: 30px;
+  width: 100%;
   color: #ffffff;
   font-family: Geometria;
-  font-size: 36px;
+  font-size: 2.2rem;
   font-weight: 700;
   line-height: 32px;
-  /* Text style for "Строим Дом" */
   letter-spacing: 0.36px;
+
 }
-.schego{
+
+.schego {
   /* Style for "из бетона," */
-  width: 316px;
-  height: 40px;
+  width: 400px;
+  margin-bottom: 30px;
+  width: 100%;
   color: #ffffff;
   font-family: Geometria;
-  font-size: 18px;
+  font-size: 1.5rem;
   font-weight: 500;
   line-height: 26px;
 }
-.gde{
-  /* Style for "из бетона," */
-  width: 316px;
-  height: 40px;
+
+.gde {
+  max-width: 144px;
+  width: 100%;
   color: #ffffff;
   font-family: Geometria;
-  font-size: 18px;
+  font-size: 1.1rem;
   font-weight: 500;
   line-height: 26px;
+
 }
-.brigad{
-  /* Style for "У нас 7 бр" */
-  float: left;
-  margin-top: 204px;
-  width: 103px;
-  height: 31px;
+.top-block{
+  max-width: 400px;
+}
+#bottom-blockstyle {
+  display: flex;
+  justify-content: space-between
+}
+
+.brigad {
   color: #ffffff;
   font-family: Geometria;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
 }
-.oput{
-  /* Style for "Опыт работ" */
-  padding-left: 98px;
-  float:left;
-  margin-top: 204px;
-  width: 92px;
-  height: 28px;
+
+.bottom-block div > div:last-child {
+  margin-right: 0;
+}
+
+.bottom-block div > div {
+  margin-right: 30px;
+}
+
+.oput {
+  width: 100%;
   color: #ffffff;
   font-family: Geometria;
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
 }
-.sozdanie{
-  /* Style for "Создаем до" */
-  padding-left: 108px;
-  float:left;
-  margin-top: 204px;
-  width: 103px;
-  height: 69px;
+
+.sozdanie {
+  width: 100px;
+  width: 100%;
   color: #ffffff;
-  font-family: Geometria;
-  font-size: 12px;
-  font-weight: 400;
   /* Text style for "Создаем до" */
   font-family: "Geometria - Medium";
-  font-size: 14px;
+  font-size: 1rem;
   font-weight: 500;
   /* Text style for "реконструи" */
+
+}
+
+.sozdanie span {
+
+  width: 100%;
+  color: #ffffff;
+  font-size: 0.8rem;
   font-family: Geometria;
   line-height: 24px;
 }
-.forma1{
-  /* Style for "фомра" */
-  width: 369px;
-  height: 417px;
-}
-.mnougol{
+
+.mnougol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   /* Style for "Многоуголь" */
-  margin-top: 91px;
-  padding-left: 1176px;
-  float: left;
-  width: 369px;
-  height: 417px;
-  background-color: #ffffff;
+  background: url("../img/display1/Mnogougol.png");
+  max-width: 369px;
+  min-height: 417px;
+  width: 100%;
+  background-color: transparent;
 }
-.free{
+
+.free {
   /* Style for "Бесплатно" */
-  width: 211px;
-  height: 54px;
+  box-sizing: border-box;
+  padding: 0 92px;
+  width: 100%;
+  margin-bottom: 30px;
+  font-size: 1rem;
   color: #284157;
-  font-family: Geometria;
-  font-size: 16px;
-  font-weight: 500;
+  font-family: "Geometria";
+  font-weight: bold;
+  text-align: center;
 }
-.name{
+.free div{
+  font-weight: bold;
+  max-width: 50px;
+  width: 100%;
+}
+.name {
   /* Style for "Ваше имя" */
-  width: 58px;
-  height: 10px;
-  opacity: 0.5;
-  color: #000000;
-  font-family: Geometria;
-  font-size: 12px;
-  font-weight: 400;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 0px;
   line-height: 19px;
-  /* Text style for "В, аше имя" */
-  letter-spacing: 0.12px;
+  color: #000000;
+  font-family: "Geometria";
 }
-.younumber{
+.mnougol input{
+  margin: 15px;
+  height: 35px;
+}
+
+.younumber {
   /* Style for "Ваш телефо" */
-  width: 78px;
-  height: 12px;
+  text-align: center;
+  max-width: 78px;
+  width: 100%;
   opacity: 0.5;
   color: #000000;
   font-family: Geometria;
-  font-size: 12px;
+  font-size: 1rem;
   font-weight: 400;
   line-height: 19px;
   /* Text style for "В, аш теле" */
   letter-spacing: 0.12px;
 }
-.button1{
-  /* Style for "Прямоуголь" */
-  width: 190px;
-  height: 50px;
+
+.button1 {
+  /* Style for "Прямоуголь"*/
+  padding-top: 10px;
+  text-align: center;
+  max-width: 190px;
+  height: 30px;
+  width: 100%;
   border-radius: 5px;
   background-color: #ffb111;
   background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
 }
-.cmeta{
-  /* Style for "Заказать с" */
-  width: 101px;
-  height: 13px;
+
+div.button1 a {
+  text-align: center;
+  text-decoration: none;
+  max-width: 101px;
+  width: 100%;
   color: #ffffff;
   font-family: Geometria;
-  font-size: 13px;
+  font-size: 1rem;
   font-weight: 500;
   line-height: 19px;
-  /* Text style for "Заказать с" */
   letter-spacing: 0.13px;
 }
-#display2{
-
-  border: 1px solid black;
-  width: 1170px;
-  height: 752px;
-
+#ready_project .button1{
+  margin: 0 auto;
 }
 
+#ready_project {
+  padding-top: 75px;
+  max-width: 1920px;
+  width: 100%;
+  text-align: center;
+}
+
+.EconomMediumPremium {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  font-size: 1.7rem;
+  color: #2a4258;
+  font-family: "Geometria";
+  font-weight: bold;
+  text-align: center;
+}
+.btn{
+  margin-right: 20px;
+  border: 0;
+  background: none;
+  box-shadow: none;
+}
+.btn:last-child{
+  margin-right: 0;
+}
+.btn.active{
+  border: 1px solid black;
+}
+.readyproject span {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 486px;
+  width: 100%;
+  color: #284157;
+  font-family: Geometria;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.blockreadyproject {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+}
+.blockreadyproject h4 {
+  font-weight: initial;
+  font-family: Geometria;
+  font-style: italic;
+}
+#imgreadyproject {
+  width: 370px;
+  height: 240px;
+}
+.arrow-left{
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+
+}
+.arrow-right{
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+}
+.owl-carousel .owl-dots .active {
+  background-size: cover;
+  width:50px;
+  width: 100%;
+  height: 50px;
+  background: url("../img/ready_project/Эллипс.png") no-repeat ;
+}
+.owl-carousel.active{
+  width: 100%;
+  text-align: center;
+}
+#Individualproject {
+  background: url("../img/Individual_project/079_cam01.png");
+  width: 1920px;
+  width: 100%;
+  height: 1439px;
+}
+
+.upperleaves {
+  margin: 0 auto;
+  background: url("../img/Individual_project/верхние_листья.png") no-repeat;
+  background-position:center ;
+  width: 477px;
+  width: 100%;
+  height: 80px;
+}
+.individualplan h1{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.developedproject h4{
+  text-align: center;
+  font-weight: initial;
+  margin-bottom: 20px;
+}
+.owl-dot .blockIndividualProject{
+  display: none;
+}
+.WeOriginal h4{
+  text-align: center;
+  font-weight: initial;
+  margin-bottom: 20px;
+}
+#imgIndividual1{
+  width:370px;
+  height: 245px;
+}
+#block1IndividualProject h4{
+  text-align: center;
+  font-weight: initial;
+}
+
+#wedeveloped {
+  font-size: 1.2rem;
+  color: #284157;
+  font-family: "Geometria";
+  text-align: center;
+}
+
+.readydeveloped {
+  background: url("../img/Individual_project/Прямоугольник.png");
+  max-width: 1172px;
+  min-height: 353px;
+  width: 100%;
+  background-color: transparent;
+}
+.blockform{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.readydeveloped h2{
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.readydeveloped h4{
+  padding-left: 100px;
+  font-weight: initial;
+  padding-bottom: 30px;
+}
+.blockform input{
+  margin: 15px;
+  padding-right: 80px;
+  height: 50px;
+}
+.blockform .button1{
+  height: 50px;
+  text-align: center;
+}
+.warranty20 h1 {
+  margin-top: 30px;
+  padding:0 200px;
+  font-weight: bold;
+  text-align: center;
+}
+.wecontrol h3 {
+  margin: 50px 0;
+  padding: 0 350px;
+  font-weight: initial;
+  text-align: center;
+}
+.imghome{
+  margin-left: 200px;
+  width: 603px;
+  height: 478px;
+  background: url("../img/warranty/Слой7.png");
+  background-position: center;
+}
+
+
+
+
+#materials{
+  background: url("../img/materials/Прямоугольник7.png");
+  width: 1922px;
+  width: 100%;
+  height: 602px;
+}
+.wematerials h2{
+  padding:75px 425px;
+  color: #ffffff;
+  font-family: "Geometria";
+  font-weight: bold;
+  text-align: center;
+}
+.blockmaterials{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+.blockmaterials h4{
+  color: #ffffff;
+  text-align: center;
+}
+.blockmaterials a{
+  color: #ffffff;
+  text-align: center;
+}
+#materials .button2{
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+#deadlines {
+  background: url("../img/deadlines/sovremennyy.png");
+  width: 1920px;
+  width: 100%;
+  height: 780px;
+}
+.imgleaves{
+  background: url("../img/deadlines/листья.png") no-repeat;
+  width: 469px;
+  width: 100%;
+  height: 254px;
+}
+.deadlinestext h1{
+  margin: 0 auto;
+  padding: 0 200px;
+  color: #284157;
+  font-weight: bold;
+  text-align: center;
+}

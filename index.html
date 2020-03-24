@@ -14,83 +14,340 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!--[if IE]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+<!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade
+  your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-  <!-- Add your site or application content here -->
+<!-- Add your site or application content here -->
 
-    <section id="shapka">
-      <div class="container">
+<section id="shapka">
+  <div class="container">
     <header>
-      <div class="logo">
-         <p class="home">
-           <span>ДОМА</span>НАВЕКА</p>
-        </div>
-      <div class="timework">
-      <div class="timeworklogo">
 
-       <p class="time">c 9:00 до 21:00 без выходных</p>
-      </div>
+      <a href="/" class="logo">
+        <img src="img/лого.png"/>
+        <div class="home">
+          <span>ДОМА</span>НАВЕКА
+
+        </div>
+      </a>
+      <div class="timework">
+        <div class="timeworklogo">
+
+          <div class="time">c 9:00 до 21:00
+            <span>без выходных</span>
+          </div>
+          <i><img src="img/clock.png"> </i>
+        </div>
       </div>
       <div class="phone">
-        <p class="ask">Есть вопросы? Звоните!</p>
-        <p class="number"> +380999999999</p>
+        <div class="ask">Есть вопросы? Звоните!
+        </div>
+        <div class="number"> +380999999999
+        </div>
       </div>
-      <div class="button">
+      <div class="button1">
         <a href="">Заказать звонок</a>
       </div>
     </header>
-      </div>
-    </section>
-    <section id="display1">
-      <div class="container">
-
-      <div class="text">
-        <p class="stroimdoma"> Строим Дома</p>
-        <p class="schego"> Из бетона, кирпича, поризованных блоков и пеноблоков</p>
-        <p class="gde"> В Киеве и КО с гарантией! </p>
-        <p class="brigad"> У нас 7 бригад </p>
-        <p class="oput"> Опыт работы 19 лет</p>
-        <p class="sozdanie">Создаем дома "под ключ" реконструируем или достраиваем </p>
-      </div>
-      <div class="forma1">
-        <div class="mnougol">
-          <p class="free">Бесплатно сотавим смету на строительство вашого дома уже сегодня! </p>
-          <div class="name">
-            <p> Ваше имя</p>
-          </div>
-          <div class="younumber"></div>
-          <p> Ваш телефон</p>
-        </div>
-        <div class="button1"></div>
-        <p class="cmeta"> Заказать смету </p>
-      </div>
-    </div>
-    </div>
-  </section>
-
-    <section id="display2">
-      <div class="container">
-      </div>
-    </section>
   </div>
-  <script src="js/vendor/modernizr-3.8.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+</section>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<section id="display1">
+  <div class="container">
+    <div id="blockconteiner">
+      <div class="text">
+        <div class="top-block">
+          <div>
+            <div>
+              <div class="stroimdoma"> Строим Дома
+              </div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="schego"> Из бетона, кирпича, поризованных блоков и пеноблоков</div>
+            </div>
+          </div>
+          <div>
+            <div>
+              <div class="gde"> В Киеве и КО с гарантией 20 лет!</div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom-block">
+          <div id="bottom-blockstyle">
+            <div class="brigad"> У нас 7 бригад строителей
+            </div>
+            <div>
+              <div class="oput"> Опыт работы 19 лет
+              </div>
+            </div>
+            <div>
+              <div class="sozdanie">Создаем дома "под ключ" <span>реконструируем или достраиваем </span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form>
+        <div class="mnougol">
+          <div class="free">Бесплатно сотавим смету на строительство вашого дома уже сегодня!
+          </div>
+          <label><input name="name" placeholder="Ваше имя" required> </label>
+          <label><input name="tel" placeholder="Ваш телефон" required></label>
+          <div class="button1">
+            <a href=""> Заказать смету </a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<section id="ready_project">
+  <div class="container">
+    <div class="readyproject">
+      <h1> У нас есть уже готовые проекты</h1>
+    </div>
+    <div class="EconomMediumPremium" id="tabs">
+      <button class="btn Econom" data-category="Econom">
+        Эконом
+      </button>
+      <button class="btn Medium" data-category="Medium">
+        Средний
+      </button>
+      <button class="btn Premium" data-category="Premium">
+        Премиум
+      </button>
+    </div>
+    <div class="owl-carousel owl-theme blockreadyproject">
+      <div class="item Econom" id="block1redyprojectt">
+        <img src="img/ready_project/Слой%206.png" id="imgreadyproject1">
+        <h3>Проект Дома Навека 1</h3>
+        <h4>Площадь дома 102м2</h4>
+        <h4>Размеры 10х23х5</h4>
+        <div class="button1">
+          <a href="">Подробней о проекте</a>
+        </div>
+      </div>
+      <div class="item Medium" id="block2redyproject">
+        <img src="img/ready_project/Слой%206.png" id="imgreadyproject2">
+        <h3>Проект Дома Навека 2</h3>
+        <h4>Площадь дома 102м2</h4>
+        <h4>Размеры 10х23х5</h4>
+        <div class="button1">
+          <a href="">Подробней о проекте</a>
+        </div>
+      </div>
+      <div class="item Medium" id="block3redyproject">
+        <img src="img/ready_project/Слой%206.png" id="imgreadyproject3">
+        <h3>Проект Дома Навека 2</h3>
+        <h4>Площадь дома 102м2</h4>
+        <h4>Размеры 10х23х5 </h4>
+        <div class="button1">
+          <a href="">Подробней о проекте</a>
+        </div>
+      </div>
+      <div class="item Premium" id="block4redyproject">
+        <img src="img/ready_project/Слой%206.png" id="imgreadyproject4">
+        <h3>Проект Дома Навека 3 </h3>
+        <h4>Площадь дома 102м2</h4>
+        <h4>Размеры 10х23х5</h4>
+        <div class="button1">
+          <a href="">Подробней о проекте</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="Individualproject">
+  <div class="container">
+    <div class="upperleaves">
+    </div>
+    <div class="individualplan">
+      <h1>
+        Мы построим Вам дом по индивидуальному плану
+        разработанному в нашем проектном бюро
+      </h1>
+    </div>
+    <div class="developedproject">
+      <h4>
+        За 19 лет мы разработали более 500 индивидуальных проектов
+      </h4>
+    </div>
+    <div class="owl-carousel owl-theme blockIndividualProject">
+      <div class="item individual1" id="block1IndividualProject">
+        <img src="img/Individual_project/Слой_8.png" id="imgIndividual1">
+      </div>
+      <div class="item individual2" id="block2IndividualProject">
+        <img src="img/Individual_project/Слой%209.png" id="imgIndividual2">
+      </div>
+      <div class="item individual3" id="block3IndividualProject">
+        <img src="img/Individual_project/Слой_10.png" id="imgIndividual3">
+      </div>
+      <div class="item individual4" id="block4IndividualProject">
+        <img src="img/Individual_project/Слой_10.png" id="imgIndividual4">
+      </div>
+    </div>
+    <div class="WeOriginal">
+      <h4> Мы разрабатываем оригинальные, конструктивно сложные проекты и реализуем их</h4>
+    </div>
+    <div class="owl-carousel owl-theme blockIndividualProject2">
+      <div class="item individual5" id="block1IndividualProject2">
+
+        <img src="img/Individual_project/Слой_11.png" id="imgIndividual5">
+      </div>
+      <div class="item individual6" id="block2IndividualProject2">
+        <img src="img/Individual_project/Слой_12.png" id="imgIndividual6">
+      </div>
+      <div class="item individual7" id="block3IndividualProject2">
+        <img src="img/Individual_project/Слой_13.png" id="imgIndividual7">
+      </div>
+      <div class="item individual8" id="block4IndividualProject2">
+        <img src="img/Individual_project/Слой_13.png" id="imgIndividual8">
+      </div>
+    </div>
+
+    <form>
+      <div class="readydeveloped">
+        <h2>Мы готовы разработать для Вас индивидуальный проект дома по Вашим пожеланием
+          <span>Либо использовать для строительства Ваш собственный проект</span></h2>
+        <h4>
+          Заполните форму ниже - мы свяжемся с Вами для обсуждения деталей проекта
+        </h4>
+        <div class="blockform">
+          <label><input name="name" placeholder="Ваше имя" required></label>
+          <label><input name="tel" placeholder="Ваш телефон" required> </label>
+          <div class="button1">
+            <a href="">Заказать обратный звонок</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</section>
+
+<section id="warranty">
+  <div class="container">
+    <div class="warranty20">
+      <h1>Гарантия 20 лет на качество строительства дома прописана в договоре</h1>
+    </div>
+    <div class="wecontrol">
+      <h3>Мы контролируем процес строительства на каждом этапе от его начала до момента сдачи объекта
+        заказчику</h3>
+    </div>
+    <div class="imghome"></div>
+    <div class="imgElipseLeft">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+    </div>
+    <div class="imgStraightLeft">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+    </div>
+    <div class="imgElipseRight">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+      <img src="img/warranty/Эллипс2копия.png">
+    </div>
+    <div class="imgStraightRight">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+      <img src="img/warranty/Фигура8.png">
+    </div>
+    <a href="">Утепление потолока</a>
+    <a href="">Дверной проем</a>
+    <a href="">Утепление пола</a>
+    <a href="">Фундамент</a>
+    <a href="">Дымоход</a>
+    <a href="">Кровля</a>
+    <a href="">Оконный проем</a>
+    <a href="">Утепление стен</a>
+  </div>
+</section>
+<section id="materials">
+  <div class="container">
+    <div class="wematerials">
+      <h2>Мы построим для Вас дом из выбраного Вами материала</h2>
+    </div>
+    <div class="blockmaterials">
+      <div class="materials1">
+        <img src="img/materials/Слой16.png">
+        <h4>ИЗ БЕТОНА</h4>
+        <div class="button2">
+          <a href="">Подробней</a>
+        </div>
+      </div>
+      <div class="materials2">
+        <img src="img/materials/Слой21.png">
+        <h4>ИЗ КИРПИЧА</h4>
+        <div class="button2">
+          <a href="">Подробней</a>
+        </div>
+      </div>
+      <div class="materials3">
+        <img src="img/materials/Слой25.png">
+        <h4>ИЗ ПОРИЗОВАННЫХ БЛОКОВ</h4>
+        <div class="button2">
+          <a href="">Подробней</a>
+        </div>
+      </div>
+      <div class="materials4">
+        <img src="img/materials/Слой26.png">
+        <h4>ИЗ ПЕНОБЛОКОВ</h4>
+        <div class="button2">
+          <a href="">Подробней</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="deadlines">
+  <div class="container">
+    <div class="imgleaves">
+    </div>
+    <div class="deadlinestext">
+    <h1>Мы всегда укладываемся в сроки прописанные в договре на строительство</h1>
+    </div>
+
+  </div>
+</section>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/vendor/modernizr-3.8.0.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<script>
+  window.ga = function () {
+    ga.q.push(arguments)
+  };
+  ga.q = [];
+  ga.l = +new Date;
+  ga('create', 'UA-XXXXX-Y', 'auto');
+  ga('set', 'transport', 'beacon');
+  ga('send', 'pageview')
+</script>
+<script src="https://www.google-analytics.com/analytics.js" async></script>
 </body>
 
 </html>
